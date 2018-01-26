@@ -51,29 +51,29 @@ header li {
                                 Body Styles
 * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
 .body {
-    height: 500px;
+    height: 700px;
     background: white;
 }
 
-.upper-cards {
-    height: 250px;
-    width: 700px;
+.flex-container  {
+    height: 200px;
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
     flex-wrap: wrap;
 }
 
 .card {
+    flex: 2 1 100px;
+    padding: 20px;
+    color: white;
     background: black;
-    flex: 1;
+    margin: 20px;
 }
 
-.bottom-card {
-    height: 200px;
-    width: 700px;
-    background: black;
-    display: flex;
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
 }
 
 
