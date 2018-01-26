@@ -1,0 +1,87 @@
+/* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+                                Base Styles
+* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+
+
+
+
+
+/* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+                                Header Styles
+* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+header {
+    height: 100px;
+    background: gray;
+}
+
+
+.desktop-nav .logo {
+    height: 50px;
+    width: 50px;
+    background: coral;
+    float: left;
+    margin-top: 30px;
+}
+
+header ul {
+    float: right;
+    padding-top: 50px;
+}
+
+header li {
+    display: inline-block;
+}
+
+
+
+
+
+/* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+                                Hero Styles
+* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+.hero {
+    height: 300px;
+    background: #ddd;
+}
+
+
+
+
+/* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+                                Body Styles
+* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+.body {
+    height: 500px;
+    background: white;
+}
+
+.upper-cards {
+    height: 250px;
+    width: 700px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: black;
+    flex: 1;
+}
+
+.bottom-card {
+    height: 200px;
+    width: 700px;
+    background: black;
+    display: flex;
+}
+
+
+/* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+                                Footer Styles
+* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+
+footer {
+    height: 200px;
+    background: gray;
+}
