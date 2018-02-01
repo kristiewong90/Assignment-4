@@ -17,11 +17,6 @@ header {
 }
 
 
-.desktop-nav .logo {
-    float: left;
-    padding-top: 30px;
-}
-
 header ul {
     float: right;
     padding-top: 50px;
@@ -36,7 +31,10 @@ header a {
 
 }
 
-
+.desktop-nav .logo {
+    float: left;
+    padding-top: 30px;
+}
 
 
 
