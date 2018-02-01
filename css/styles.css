@@ -1,11 +1,26 @@
 /* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
                                 Base Styles
 * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+/* light blue = #9fe7ff or BAF1F3; */
+/* light purple = #ac9fff */
+/* light green = #9fffb7 */
+
 img {
   width: 100%;
 }
 
+button {
+    font-family: 'Merriweather', serif;
+    background: transparent;
+    color: black;
+    border: 1px solid white;
+    padding: 6px;
+}
 
+button:hover {
+    background: #9fe7ff;
+    color: white;
+}
 
 
 /* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
@@ -28,7 +43,7 @@ header li {
 }
 
 header a {
-
+    color: #9fe7ff;
 }
 
 .desktop-nav .logo {
@@ -44,6 +59,10 @@ header a {
 .carousel-inner img {
     height: 30%;
     width: 100%;
+}
+
+.carousel-caption {
+    margin-bottom: 50px;
 }
 
 
@@ -62,23 +81,11 @@ header a {
   margin-bottom: 30px;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 10px solid #BAF1F3;
+  border: 5px solid #9fe7ff;
   text-align: center;
   padding-top: 150px;
 }
 
-button {
-    background: white;
-    color: black;
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 6px;
-}
-
-button:hover {
-    background: #BAF1F3;
-    color: white;
-}
 
 .blog-title {
   text-align: center;
@@ -86,6 +93,10 @@ button:hover {
 
 .card {
   margin-bottom: 30px;
+}
+
+.card-title a {
+    color: #BAF1F3;
 }
 
 /* @media (max-width: 768px) {
