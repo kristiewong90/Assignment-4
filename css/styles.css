@@ -57,19 +57,12 @@ header a {
   height: 250px;
   background-image: url('../img/newarrivals.jpg');
   margin-top: 30px;
+  margin-bottom: 30px;
   background-size: cover;
   background-repeat: no-repeat;
   border: 10px solid #BAF1F3;
   text-align: center;
-  padding-top: 175px;
-  /* background-position: center; */
-}
-
-.card {
-    width: 300px;
-    display: inline-block;
-    background-size: cover;
-    margin: 20px 30px;
+  padding-top: 150px;
 }
 
 button {
@@ -85,11 +78,19 @@ button:hover {
     color: white;
 }
 
-@media (max-width: 768px) {
-    .flex-container {
-        flex-direction: column;
-    }
+.blog-title {
+  text-align: center;
 }
+
+.card {
+  margin-bottom: 30px;
+}
+
+/* @media (max-width: 768px) {
+    header .col {
+      display: block;
+    }
+} */
 
 
 /* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
@@ -99,4 +100,8 @@ button:hover {
 footer {
     height: 200px;
     background: gray;
+}
+
+.form-newsletter {
+  display: inline-block;
 }
