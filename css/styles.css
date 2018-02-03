@@ -5,35 +5,12 @@ img {
   width: 100%;
 }
 
-
-
-
-/* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
-                                Header Styles
-* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
 header {
     height: 100px;
     background: white;
 }
 
-
-.desktop-nav .logo {
-    float: left;
-    padding-top: 30px;
-}
-
-header ul {
-    float: right;
-    padding-top: 50px;
-}
-
-header li {
-    display: inline-block;
-    padding-left: 30px;
-
-}
-
-header a {
+a {
     font-family: 'Roboto', sans-serif;
     color: black;
     text-transform: uppercase;
@@ -41,13 +18,87 @@ header a {
 }
 
 
+/* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+                                Header Styles
+* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
+.desktop-nav ul {
+    float: right;
+    margin-top: 10px;
+    width: calc(100% - 60px);
+    text-align: right;
+}
 
+.desktop-nav li {
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+
+.desktop-nav .logo {
+    padding-top: 30px;
+}
+
+
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active {
+    opacity: 0.9;
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+/* Mobile  */
+ .mobile-nav {
+    display: none;
+    text-align: center;
+}
+
+.mobile-nav .logo {
+    display: inline-block;
+}
+
+.mobile-nav .hamburger-container,
+.mobile-nav .search-container {
+    vertical-align: top;
+    margin-top: 8px;
+    width: 40px;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.mobile-nav .logo-container {
+    display: inline-block;
+    margin-left: -4px;
+    width: calc(100% - 80px);
+}
+
+.mobile-nav button {
+    background: transparent;
+    border: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .mobile-nav {
+      display: block;
+    }
+
+    .desktop-nav {
+      display: none;
+    }
+}
 
 
 /* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
                                 Hero Styles
 * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** */
-
+.carousel-inner img {
+  height: 30%;
+  width: 100%;
+}
 
 /* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
                                 Body Styles
@@ -70,10 +121,11 @@ header a {
 }
 
 button {
-    background: white;
+    background: transparent;
     color: black;
+    font-weight: bold;
     border: 1px solid white;
-    border-radius: 30px;
+    border-radius: 0px;
     padding: 6px;
 }
 
