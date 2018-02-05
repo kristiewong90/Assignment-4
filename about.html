@@ -20,67 +20,40 @@
 <!-- ***************************************************************************
                     HEADER - NAV
   ***********************************************************************************  -->
-        <header>
+  <header>
           <!-- Desktop Nav  -->
 
+    <div class="container desktop-nav">
 
+        <div class='row'>
 
-            <div class="container desktop-nav">
-                    <div class="logo"><a href='#'><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></a></div>
+            <div class="logo col"><a href='./index.html'><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></a></div>
 
-                    <div class="menu">
-                        <ul>
-                            <li><a href='./index.html'>Home</a></li>
-                            <li><a href='./about.html'>About</a></li>
-                            <li><a href='./shop-now.html'>Shop Now</a></li>
-                            <li><a href='./contact-us.html'>Contact Us</a></li>
-                            <li><a href='#'><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
-                </div>
+            <div class="menu col-9">
+                <ul>
+                    <li><a href='./index.html'>Home</a></li>
+                    <li><a href='./about.html'>About</a></li>
+                    <li><a href='./shop-now.html'>Shop Now</a></li>
+                    <li><a href='./contact-us.html'>Contact Us</a></li>
+                    <li><a href='#'><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
 
 
             <!-- Mobile Nav -->
-            <!-- <nav class="navbar navbar-expand-lg navbar-light">
-				          <!- <a class="navbar-brand" href="./index.html">Home</a> -->
-				       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					        <span class="navbar-toggler-icon"></span>
-	            </button>
-    				 <div class="collapse navbar-collapse" id="navbarNav">
-    					 <ul class="navbar-nav ml-auto">
-    						 <li class="nav-item active">
-    							 <a class="nav-link" href="./shop-now.html">Shop Now<span class="sr-only">(current)</span></a>
-    						 </li>
-    						 <li class="nav-item">
-    							 <a class="nav-link" href="./about.html">About</a>
-    						 </li>
-                 <li class="nav-item">
-    							 <a class="nav-link" href="./contact-us.html">Contact Us</a>
-    						 </li>
-    						</ul>
-    				 </div>
-			 </nav> -->
+    <div class="mobile-nav">
+      <a href='./index.html'><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></a>
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./shop-now.html">Shop Now</a>
+            <a href="./contact-us.html">Contact Us</a>
+        </div>
+    </div>
 
-            <!-- <div class="mobile-nav">
-                <div class="hamburger-container">
-                    <button><i class="fa fa-bars" aria-hidden="true">
-                      <li><a href='./index.html'>Home</a></li>
-                      <li><a href='./about.html'>About</a></li>
-                      <li><a href='./shop-now.html'>Shop Now</a></li>
-                      <li><a href='./contact-us.html'>Contact Us</a></li>
-                    </i></button>
-                </div>
-                <div class="logo-container">
-                    <div class="logo"></div>
-                </div>
-                <div class="search-container">
-                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
-                </div>
-            </div> -->
-
-        </header>
-
+</header>
 
 <!-- ***************************************************************************
               SECTION
@@ -96,7 +69,7 @@
     </div>
 
     <div class="row">
-        <div class="about-card col">
+        <div class="about-card col-sm">
             <img src="./img/story.jpg" alt="Friends Laughing">
             <div class="description-container">
               <h3>Our Story</h3>
@@ -105,7 +78,7 @@
             </div>
         </div>
 
-        <div class="about-card col">
+        <div class="about-card col-sm">
             <img src="./img/media.jpg" alt="Camera">
             <div class="description-container">
               <h3>Media</h3>
@@ -116,7 +89,7 @@
       </div>
 
       <div class="row">
-          <div class="about-card col">
+          <div class="about-card col-sm">
               <img src="./img/design.jpg" alt="T-shirt">
               <div class="description-container">
                 <h3>Our Design</h3>
@@ -125,7 +98,7 @@
               </div>
           </div>
 
-          <div class="about-card col">
+          <div class="about-card col-sm">
               <img src="./img/returns.jpg" alt="Packages">
               <div class="description-container">
                 <h3>Return Policies</h3>
@@ -144,11 +117,13 @@
 <!-- ***************************************************************************
               FOOTER
 ***********************************************************************************  -->
+<footer>
+  <div class='container'>
 
-    <footer>
-      <div class='container'>
+    <div class="row">
 
 
+      <div class="newsletter col-4">
         <form class="form-inline">
           <div class="form-group">
           <label for="inputEmailAddress">Sign up for exclusive offers</label>
@@ -156,26 +131,22 @@
           <button class='form-newsletter'>Submit</button>
           </div>
         </form>
-
-
-
-
-
-
-
       </div>
 
 
+      <div class="social-media-icons col-8">
+          <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+          <button><i class="fa fa-instagram" aria-hidden="true"></i></button>
+          <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+          <button><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+          <p>Follow Us</p>
+      </div>
 
+  </div>
 
+</div>
 
-
-
-
-
-
-
-    </footer>
+</footer>
 
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
