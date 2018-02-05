@@ -86,23 +86,47 @@
                 <div class="form">
 
 
-                    <div class="name-input">
-                        <label for='firstname-input'>First Name:</label>
-                        <input type='text' name='first-name' id='first-name-input' placeholder='John'>
-                        <label for='lastname-input'>Last Name:</label>
-                        <input type='text' name='last-name' id='last-name-input' placeholder='Smith'>
-                    </div>
-                    <label for='email-input'>Email Address:</label>
-                    <div class="email-input">
-                        <input type='email' name='email' id='email-input' placeholder='example@exmaple.ca'>
-                    </div>
-                    <label for='message-input'>Message:</label>
-                    <div class="message-input">
-                        <textarea rows="8" cols="70" name='message' placeholder='Type Message Here'></textarea>
-                    </div>
-                    <div class="submit">
-                        <input type="submit">
-                    </div>
+
+
+
+                        <div class="label">
+                            <label for='firstname-input'>First Name:</label>
+                        </div>
+                        <div class='input-container'>
+                            <input type='text' name='first-name' id='first-name-input' placeholder='John'>
+                        </div>
+
+                        <div class="label">
+                            <label for='lastname-input'>Last Name:</label>
+                        </div>
+                        <div class='input-container'>
+                            <input type='text' name='last-name' id='last-name-input' placeholder='Smith'>
+                        </div>
+
+                        <div class="label">
+                            <label for='email-input'>Email:</label>
+                        </div>
+                        <div class='input-container'>
+                            <input type='email' name='email' id='email-input' placeholder='example@exmaple.ca'>
+                        </div>
+
+
+                        <label for='message-input'>Message:</label>
+
+                        <!-- ***Desktop ***-->
+                        <div class="message-input desktop-view">
+                            <textarea rows="8" cols="70" name='message' placeholder='Type Message Here'></textarea>
+                        </div>
+
+                        <!-- ***Mobile ***-->
+                        <div class="message-input mobile-view">
+                            <textarea rows="8" cols="30" name='message' placeholder='Type Message Here'></textarea>
+                        </div>
+                        <!-- ************ -->
+
+                        <div class="submit">
+                            <input type="submit">
+                        </div>
 
                 </div>
 

@@ -93,7 +93,9 @@ footer {
 }
 
 
-/* Mobile  */
+/* Mobile Nav  */
+
+
  .mobile-nav {
     display: none;
 }
@@ -130,7 +132,6 @@ footer {
       display: none;
     }
 }
-
 
 
 /* * ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
@@ -235,6 +236,24 @@ footer {
 .submit input {
   background: transparent;
   border: 1px solid black;
+}
+
+.label .input-container {
+    display: inline-block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-view {
+        display: block;
+    }
+
+    .desktop-view {
+        display: none;
+    }
 }
 
 /* * * * * * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * *
