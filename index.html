@@ -22,10 +22,16 @@
   ***********************************************************************************  -->
         <header>
           <!-- Desktop Nav  -->
-            <div class="container desktop-nav">
-                    <div class="logo"><a href='#'><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></a></div>
 
-                    <div class="menu">
+
+
+            <div class="container desktop-nav">
+
+                <div class='row'>
+
+                    <div class="logo col"><a href='#'><i class="fa fa-circle-o fa-2x" aria-hidden="true"></i></a></div>
+
+                    <div class="menu col-9">
                         <ul>
                             <li><a href='./index.html'>Home</a></li>
                             <li><a href='./about.html'>About</a></li>
@@ -34,29 +40,45 @@
                             <li><a href='#'><i class="fa fa-search" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-
+                  </div>
                 </div>
 
 
             <!-- Mobile Nav -->
-            <div class="mobile-nav">
-                <div class="hamburger-container">
-                    <button><i class="fa fa-bars" aria-hidden="true">
-                      <!-- <li><a href='./index.html'>Home</a></li>
+<div class="mobile-nav">
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">About</a>
+        <a href="#contact">Shop Now</a>
+        <a href="#about">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</div>
+
+    <!-- <div class="pos-f-t mobile-nav">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-faded p-4">
+                <span class="text-muted">
+                    <ul>
+                      <li><a href='./index.html'>Home</a></li>
                       <li><a href='./about.html'>About</a></li>
                       <li><a href='./shop-now.html'>Shop Now</a></li>
-                      <li><a href='./contact-us.html'>Contact Us</a></li> -->
-                    </i></button>
-                </div>
-                <div class="logo-container">
-                    <div class="logo"></div>
-                </div>
-                <div class="search-container">
-                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
-                </div>
+                      <li><a href='./contact-us.html'>Contact Us</a></li>
+                    </ul>
+                </span>
             </div>
+        </div>
+        <nav class="navbar navbar-inverse bg-inverse">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div> -->
 
-        </header>
+
+
+
+</header>
 
   <!-- ***************************************************************************
                 HERO
@@ -154,25 +176,30 @@
 ***********************************************************************************  -->
 
     <footer>
-        <div class="container">
-          <div class='row'>
-            <div class="col-3">
-              <dt> Sign up for exclusive offers</dt>
-              <form>
-                  <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputEmail" class="sr-only">Email Address</label>
-                      <input type="email" class="form-control" id="inputEmail2" placeholder="Enter Your Email Here">
-                  </div>
-                  <button class='form-newsletter'>Submit</button>
-              </form>
+      <div class='container'>
+
+        <div class="row">
+
+
+          <div class="newsletter col">
+            <form class="form-inline">
+              <div class="form-group">
+              <label for="inputEmailAddress">Sign up for exclusive offers</label>
+              <input type="email" id="inputEmailAddress" class="form-control mx-sm-3" aria-describedby="EmailHelpInline" placeholder='Enter Your Email Here'>
+              <button class='form-newsletter'>Submit</button>
+              </div>
+            </form>
           </div>
-        </div>
-      <div>
 
-      <div class="row">
-        <div class="social-media">
 
-        </div>
+          <div class="social-media-icons col">
+              <button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+              <button><i class="fa fa-instagram" aria-hidden="true"></i></button>
+              <button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+              <button><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+              <p>Follow Us</p>
+          </div>
+
       </div>
 
 
@@ -180,7 +207,7 @@
 
 
 
-
+      </div>
 
 
 
